@@ -1,6 +1,8 @@
 body{
-    background-color: #5b82c6;
-    background-image: url("heart.jpg");
+    background-color: #6d81a3;
+    background-size:cover;
+    padding:50px 0 70px;
+     width: 100%;
 }
  /*Get Involved*/
  .getinvolved {
@@ -9,9 +11,24 @@ body{
      padding:50px 0 80px;
      width: 100%;
      }
- 
- 
- .getinvolved h1{
+     
+header{
+    height:600px;
+    width:100%; 
+    background-image: url("dog-shelter.jpg");
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    
+}
+header h1{
+    color: #fff ; 
+}
+header p{
+    color: #fff ;
+
+}
+.getinvolved h1{
      color: #fff;
  }
  
@@ -36,6 +53,7 @@ body{
     margin-top: 80px;
     margin-bottom: 80 px;
     text-align:center;
+    background-color:white;
 }
 .team img{
     width: 250px;
@@ -47,11 +65,58 @@ body{
     text-align: center;
 }
 
-/*Get Involved*/
-.getinvolved {
-    background-color: #5b82c6;
-    text-align:center;
-    padding:50px 0 80px;
-    margin-top:50px;
-    width:100%;
+/*About Us*/
+
+.aboutus i{
+    font-size:30px;
+    padding: 25px 20px;
+    
+    /*change the color*/
+    color: #fff;
+    background-color:#6d81a3;
+    
+    /*resize container of icon */
+    width: 80px;
+    height: 80px;
+    
+    
+    /*make the container round */
+    border-radius: 50%;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.aboutus {
+    background-color: white;
+}
+.aboutus span{
+    width: 200px;
+    display: inline-block;
+}
+
+/*Contact Us*/
+.contactus {
+    background-color: white;
+}
+
+.results{
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 80 px;
+    text-align:left;
+} 
+.results h2{
+    text-align:right;
+}
+.results p{
+    text-align:right;
+}
+.button
+
+.footer{
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 80 px;
 }
